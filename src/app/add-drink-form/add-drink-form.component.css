@@ -1,0 +1,30 @@
+.add-drink-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-drink-form form label {
+    margin-bottom: 10px;
+  }
+  
+  .add-drink-form form input[type="text"],
+  .add-drink-form form input[type="number"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-drink-form form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-drink-form form button:hover {
+    background-color: #0056b3;
+  }
+  

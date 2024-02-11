@@ -1,0 +1,13 @@
+<!-- app.component.html -->
+<app-header></app-header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <app-add-drink-form (drinkAdded)="onDrinkAdded($event)"></app-add-drink-form>
+    </div>
+    <div class="col-md-6">
+      <app-drink-list [drinks]="drinks"></app-drink-list>
+    </div>
+  </div>
+</div>

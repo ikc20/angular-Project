@@ -1,0 +1,13 @@
+<!-- drink-list.component.html -->
+<section>
+  <h2>Drink List</h2>
+    <ul>
+       <li *ngFor="let drink of drinks">
+             {{ drink.type }} - {{ drink.quantity }}
+             <button (click)="editDrink(drink)">Edit</button>
+
+       </li>
+    </ul>
+    
+</section>
+  

@@ -1,0 +1,16 @@
+<!-- add-drink-form.component.html -->
+<div class="add-drink-form">
+    <h2>Add Drink</h2>
+    <form (ngSubmit)="addDrink()">
+      <label>
+        Drink Type:
+        <input type="text" [(ngModel)]="drinkType" name="drinkType" required>
+      </label>
+      <label>
+        Quantity:
+        <input type="number" [(ngModel)]="quantity" name="quantity" required>
+      </label>
+      <button type="submit">Add</button>
+    </form>
+  </div>
+  

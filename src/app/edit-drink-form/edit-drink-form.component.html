@@ -1,0 +1,15 @@
+<div class="edit-drink-form">
+    <h2>Edit Drink</h2>
+    <form (ngSubmit)="saveChanges()">
+      <label>
+        Drink Type:
+        <input type="text" [(ngModel)]="editedDrink.type" name="type" required>
+      </label>
+      <label>
+        Quantity:
+        <input type="number" [(ngModel)]="editedDrink.quantity" name="quantity" required>
+      </label>
+      <button type="submit">Save Changes</button>
+    </form>
+  </div>
+  
